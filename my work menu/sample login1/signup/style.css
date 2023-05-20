@@ -1,0 +1,98 @@
+body{
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+* {
+  box-sizing: border-box;
+}
+.signup{
+  text-align: center;
+}
+.kadrsignup{
+   width: 430px;
+   height: 700px;
+   background-color: #c69dc2;
+  margin: 14px;
+  box-shadow: 
+    14px 19px 27px #aca5a0, -56px -19px 27px #ffffff;
+  border-radius: 40px;
+  padding: 60px 35px 35px 35px;
+}
+.logosignup{
+width: 142px;
+height: 142px;
+border-radius: 50%;
+position: absolute;
+right: calc(50% - 71px);
+    top: calc(50% - 71px);
+}
+.logoback{    
+    width: 166px;
+    height: 166px;
+    background-color: #c69dc2;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 8px 8px 15px #a88da6, -8px -8px 15px #a88da6;
+    margin: 0px auto;
+}
+.title{
+    letter-spacing: 0.5px;
+}
+.userinput ,.passinput , .emailinput {
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    border: 0px;
+    border-radius: 25px;
+    width: 300px;
+    height: 60px;
+ background-color: #dfe1e2;
+ outline: none;
+ position: relative;
+ padding: 20px 10px 20px 47px;
+}
+.user svg , .pass svg  {
+     height: 18px;
+    margin: 29px 171px 2px -291px;
+    text-align: left;
+    position: absolute;
+}
+.email img{
+    width: 17px;
+    margin: 29px 171px 2px -291px;
+    text-align: left;
+    position: absolute;
+}
+.click-signup{
+   text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 25px;
+    width: 300px;
+    height: 60px;
+    background-color: #90628b;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.click-signup:hover {
+    background-color:#b7229e;
+}
+.goto-login{
+ margin: 90px; 
+ color:#90628b;
+}
+.goto-login:hover {
+ color: #b7229e;
+}
+

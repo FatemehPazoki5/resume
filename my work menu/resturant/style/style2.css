@@ -1,0 +1,60 @@
+.test{
+    background-color: #d0e593b8;
+    
+}
+.test ul{
+    padding: 0px;
+    margin: 0px;
+}
+.test li{
+    display: inline-block;
+    margin: 54px;
+   
+    
+}
+.test li:hover{
+    transform:scale (1.5,1.2);
+}
+.test img {
+    width: 340px;
+    height: 220px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+.test a{
+    margin: auto;
+    color: #fff;
+    background-color: #988814;
+    border-color: #998916;
+}
+.test a:hover{
+    background-color: #7aad00d4;
+    border-color: #538f1c;
+
+}
+.my-css-card{
+    background-color: #dbed91b5;
+    border-radius: 3px;
+    box-shadow:-1px -2px 10px #a6b46d;
+    width: 390px;
+    height: 570px;
+    
+}
+.my-css-card:hover{
+    transform: scale(1.2,1)
+}
+.my-css-card h5{
+    text-align: center;
+}
+.my-css-card p{
+ color: black;   
+}
+.my-css-card-body{
+    padding: 22px;
+    margin: 0px 25px 25px 25px;
+    text-align: justify;
+    background-color: #eeeeee;
+
+}

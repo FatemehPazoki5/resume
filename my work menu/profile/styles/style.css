@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif; 
+}
+.container{
+    background-color: white;
+    width: 480px;
+    height: 370px;
+    border-radius: 4px;
+    box-shadow: 10px 0px 16px #ccc9c9;
+    margin: auto;
+    margin-top: 115px;
+    padding: 25px 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 2px #999494 dotted;
+}
+.title{
+   text-align: center;
+   font-size: 25px;
+   color: #6b6969;
+   border-bottom: 5px solid lightgray;
+   width: 172px;
+   margin: auto;
+}
+.desc{
+    text-align: center;
+     color: #6b6969;
+}
+.socilas{
+    background-color:lightgray;
+    height: 50px;
+    margin-top: 20px;
+    text-align:center;
+}
+.socilas svg{
+    margin: 17px 21px;
+}

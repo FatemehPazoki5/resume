@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #171a35;
+      background-image: url("./img/back.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    text-align: center;
+}
+.sosialNetwork{
+    margin-top: 185px;
+}
+.sosialNetwork img{
+    width: 38px;
+    margin: 0px 0px 35px 140px;
+}
